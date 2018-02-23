@@ -2,7 +2,6 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>OdbmsPrdAtrributeExtract</groupId>
   <artifactId>OdbmsPrdAtrributeExtract</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
   <name>OdbmsPrdAttributeExtract</name>
   <description>Project to extract ODBMS Product Attribute Data</description>
   <build>
@@ -20,7 +19,7 @@
             <configuration>
                 <archive>
                 <manifest>
-					<mainClass>odbmsPrdAttributeExtract.OdbmsExtract</mainClass>
+					<mainClass>com.riverIsland.pgw.odbmsPrdAttributeExtract.OdbmsExtract</mainClass>
                 </manifest>
                 </archive>
                 <descriptorRefs>
@@ -53,6 +52,7 @@
         <version>6</version>
     </dependency>
 </dependencies>
+	<version>0.1</version>
 </project>
 
 
